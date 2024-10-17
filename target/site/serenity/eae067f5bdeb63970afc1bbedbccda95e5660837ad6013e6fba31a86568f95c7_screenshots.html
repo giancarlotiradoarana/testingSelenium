@@ -1,0 +1,271 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="4f271e244d5c3c9c659815afd12bd098481b4a160a2fbde72761fb4d9e41fd4d.html">Validaci&oacute;n Del Filtro De La P&aacute;gina Juntoz</a></span>
+                > <span class="truncate-60"><a
+                    href="eae067f5bdeb63970afc1bbedbccda95e5660837ad6013e6fba31a86568f95c7.html">Validar el filtro de un cliente en el sistemaFixed </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 21-09-2022 15:08</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Validación Del Filtro De La Página Juntoz</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Como usuario de sistemaFixed abro la pagina
+Quiero hacer la busqueda de un proveedor
+Quiero hacer el registro de un cliente
+Para validar el funcionamimento del funcionamiento del sistemaFixed
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="7fbbcb1e2bc3adf1d5a7496204aa6539afc2f11c041cf05a460507396bb7abc4.html">ESCENARIO SISTEMAFIXED 02 PARAMETRIZADOS
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="1c45bf8dcb6044aee5a1d0479748e97ece8a7c68ef988c72bce8722ca7a6c2b1.html">SISTEMAFIXED 01
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Validar el filtro de un cliente en el sistemaFixed
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Dado Abrir el sistemaFixed en el navegador "&lt;navegador&gt;"<br>Y hacer clicks en el icono en el lado izquierdo para desplegar en el menu<br>Y hacer click en el menu Cliente<br>Entonces hacer click en el submenu ver Cliente<br>Y hacer click en el boton agregar un cliente<br>Entonces mostrar el formulario de agregar cliente<br>Y seleccionamos Tipo Documento"&lt;Tipo Documento&gt;"<br>Y escribimos Tipo Documento "&lt;Numero Documento&gt;"<br>Y seleccionamos el Pais"&lt;Pais&gt;"<br>Y escribimos Razon Social"&lt;Razon Social&gt;"<br>Y escribimos el Nombre"&lt;Nombre&gt;"<br>Y escribimos la direccion"&lt;Direccion&gt;"<br>Y escribimos la localidad"&lt;Localidad&gt;"<br>Y escribimos el departamento"&lt;Departamento&gt;"<br>Y escribimos domicilio de entrega"&lt;Domicilio de entrega&gt;"<br>Y escribimos el descuento"&lt;Descuento&gt;"<br>Y escribimos el email enviofactura"&lt;EmailenvioFactura&gt;"<br>Y seleccionamos EsProveedorEsCliente<br>Entonces validar los datos correctos</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="fa8fb223f96e55e89860c645b6ff4973bfeccc0ee56625ebe83bc1e1360e79dc.png" title=" Example #1: {navegador=chrome, Tipo Documento=Otros, Numero Documento=70304898, Pais=Per&uacute;, Razon Social=Giancarlo TIRADO ARANA SA, Nombre=GIANCARLO, Direccion=CHEPEN, Localidad=CHEPEN, Departamento=LA LIBERTAD, Domicilio de entrega=CHEPEN, Descuento=12, EmailenvioFactura=gtirado@unitru.edu.pe}" width="1366"/>
+                <img src="fa8fb223f96e55e89860c645b6ff4973bfeccc0ee56625ebe83bc1e1360e79dc.png" title=" Y hacer clicks en el icono en el lado izquierdo para desplegar en el menu" width="1366"/>
+                <img src="fa8fb223f96e55e89860c645b6ff4973bfeccc0ee56625ebe83bc1e1360e79dc.png" title=" Hacer click en el icono en el lado izquierdo para desplegar en el menu" width="1366"/>
+                <img src="fa8fb223f96e55e89860c645b6ff4973bfeccc0ee56625ebe83bc1e1360e79dc.png" title=" Y hacer clicks en el icono en el lado izquierdo para desplegar en el menu (completed)" width="1366"/>
+                <img src="fdd02536fc41e4840d00a7fa183ba6f2f48d4ea9be56d9742ab90cbc597fa982.png" title=" Y hacer click en el menu Cliente" width="1366"/>
+                <img src="fdd02536fc41e4840d00a7fa183ba6f2f48d4ea9be56d9742ab90cbc597fa982.png" title=" Hacer click en el menu cliente" width="1366"/>
+                <img src="fdd02536fc41e4840d00a7fa183ba6f2f48d4ea9be56d9742ab90cbc597fa982.png" title=" Y hacer click en el menu Cliente (completed)" width="1366"/>
+                <img src="7a88a44c079d69d3fdf674a76b4d3b33aa84e957be03250b572b5e7935d70e67.png" title=" Entonces hacer click en el submenu ver Cliente" width="1366"/>
+                <img src="7a88a44c079d69d3fdf674a76b4d3b33aa84e957be03250b572b5e7935d70e67.png" title=" Hacer click en el submenu ver cliente" width="1366"/>
+                <img src="7a88a44c079d69d3fdf674a76b4d3b33aa84e957be03250b572b5e7935d70e67.png" title=" Entonces hacer click en el submenu ver Cliente (completed)" width="1366"/>
+                <img src="f0377ce10f92f6f10d63b6d4c4b9f5d5ce5680fff7c79fe6eecba486469e4250.png" title=" Y hacer click en el boton agregar un cliente" width="1366"/>
+                <img src="f0377ce10f92f6f10d63b6d4c4b9f5d5ce5680fff7c79fe6eecba486469e4250.png" title=" Hacer click en el boton agregar un cliente" width="1366"/>
+                <img src="f0377ce10f92f6f10d63b6d4c4b9f5d5ce5680fff7c79fe6eecba486469e4250.png" title=" Y hacer click en el boton agregar un cliente (completed)" width="1366"/>
+                <img src="f0377ce10f92f6f10d63b6d4c4b9f5d5ce5680fff7c79fe6eecba486469e4250.png" title=" Entonces mostrar el formulario de agregar cliente" width="1366"/>
+                <img src="46f5664be2f2dff9bd7c6a940fa06ca49ade1d993e3f5f592a70df7c4b5d9a29.png" title=" Y seleccionamos Tipo Documento&quot;Otros&quot;" width="1366"/>
+                <img src="46f5664be2f2dff9bd7c6a940fa06ca49ade1d993e3f5f592a70df7c4b5d9a29.png" title=" Seleccionamos tipo documento: Otros" width="1366"/>
+                <img src="46f5664be2f2dff9bd7c6a940fa06ca49ade1d993e3f5f592a70df7c4b5d9a29.png" title=" Y seleccionamos Tipo Documento&quot;Otros&quot; (completed)" width="1366"/>
+                <img src="6559ac6e6c85eeebbd09969df3ec11bed69f63ecc754e679c9d662a4e14849ca.png" title=" Y escribimos Tipo Documento &quot;70304898&quot;" width="1366"/>
+                <img src="6559ac6e6c85eeebbd09969df3ec11bed69f63ecc754e679c9d662a4e14849ca.png" title=" Escribimos tipo documento: 70304898" width="1366"/>
+                <img src="6559ac6e6c85eeebbd09969df3ec11bed69f63ecc754e679c9d662a4e14849ca.png" title=" Y escribimos Tipo Documento &quot;70304898&quot; (completed)" width="1366"/>
+                <img src="76a4053f6832108637c656ee48565776679ba7b451a918ae3463c9361d742101.png" title=" Y seleccionamos el Pais&quot;Per&uacute;&quot;" width="1366"/>
+                <img src="76a4053f6832108637c656ee48565776679ba7b451a918ae3463c9361d742101.png" title=" Seleccionamos el pais: Per&uacute;" width="1366"/>
+                <img src="76a4053f6832108637c656ee48565776679ba7b451a918ae3463c9361d742101.png" title=" Y seleccionamos el Pais&quot;Per&uacute;&quot; (completed)" width="1366"/>
+                <img src="1edc44bf9b1ba67cd6e0430e64d425c7933d9f70fc7dc61572a9104486d26fbb.png" title=" Y escribimos Razon Social&quot;Giancarlo TIRADO ARANA SA&quot;" width="1366"/>
+                <img src="1edc44bf9b1ba67cd6e0430e64d425c7933d9f70fc7dc61572a9104486d26fbb.png" title=" Escribimos razon social: Giancarlo TIRADO ARANA SA" width="1366"/>
+                <img src="1edc44bf9b1ba67cd6e0430e64d425c7933d9f70fc7dc61572a9104486d26fbb.png" title=" Y escribimos Razon Social&quot;Giancarlo TIRADO ARANA SA&quot; (completed)" width="1366"/>
+                <img src="9e79d5e996bbdee38bbd42ef7650eb72c3127c1b9814ecfbf06636ba496c2c84.png" title=" Y escribimos el Nombre&quot;GIANCARLO&quot;" width="1366"/>
+                <img src="9e79d5e996bbdee38bbd42ef7650eb72c3127c1b9814ecfbf06636ba496c2c84.png" title=" Escribimos el nombre: GIANCARLO" width="1366"/>
+                <img src="9e79d5e996bbdee38bbd42ef7650eb72c3127c1b9814ecfbf06636ba496c2c84.png" title=" Y escribimos el Nombre&quot;GIANCARLO&quot; (completed)" width="1366"/>
+                <img src="1737d5aa092c88062f5290256630b190459ba838ac565f28c17a9e0403e67a08.png" title=" Y escribimos la direccion&quot;CHEPEN&quot;" width="1366"/>
+                <img src="1737d5aa092c88062f5290256630b190459ba838ac565f28c17a9e0403e67a08.png" title=" Escribimos la direccion: CHEPEN" width="1366"/>
+                <img src="1737d5aa092c88062f5290256630b190459ba838ac565f28c17a9e0403e67a08.png" title=" Y escribimos la direccion&quot;CHEPEN&quot; (completed)" width="1366"/>
+                <img src="3aa763bfd30efbf6edd1093a35fe17753df55aef7734b5185c359be8650f8200.png" title=" Y escribimos la localidad&quot;CHEPEN&quot;" width="1366"/>
+                <img src="3aa763bfd30efbf6edd1093a35fe17753df55aef7734b5185c359be8650f8200.png" title=" Escribimos la localidad: CHEPEN" width="1366"/>
+                <img src="3aa763bfd30efbf6edd1093a35fe17753df55aef7734b5185c359be8650f8200.png" title=" Y escribimos la localidad&quot;CHEPEN&quot; (completed)" width="1366"/>
+                <img src="1faf3f54b9a4bc9010c633cd10cc0bccef3a0b268c024601fe35820ef0130538.png" title=" Y escribimos el departamento&quot;LA LIBERTAD&quot;" width="1366"/>
+                <img src="1faf3f54b9a4bc9010c633cd10cc0bccef3a0b268c024601fe35820ef0130538.png" title=" Escribimos el departamento: LA LIBERTAD" width="1366"/>
+                <img src="1faf3f54b9a4bc9010c633cd10cc0bccef3a0b268c024601fe35820ef0130538.png" title=" Y escribimos el departamento&quot;LA LIBERTAD&quot; (completed)" width="1366"/>
+                <img src="f93000f20a59ce935429e237b0db15a5cb99b1f99f5a9343a31b2a759545b04b.png" title=" Y escribimos domicilio de entrega&quot;CHEPEN&quot;" width="1366"/>
+                <img src="f93000f20a59ce935429e237b0db15a5cb99b1f99f5a9343a31b2a759545b04b.png" title=" Escribimos domicilio de entrega: CHEPEN" width="1366"/>
+                <img src="f93000f20a59ce935429e237b0db15a5cb99b1f99f5a9343a31b2a759545b04b.png" title=" Y escribimos domicilio de entrega&quot;CHEPEN&quot; (completed)" width="1366"/>
+                <img src="e44c3cefed1652dda0cc87d2921b68d7ce42c2d92c1b8c4a5404d53627dd0794.png" title=" Y escribimos el descuento&quot;12&quot;" width="1366"/>
+                <img src="e44c3cefed1652dda0cc87d2921b68d7ce42c2d92c1b8c4a5404d53627dd0794.png" title=" Escribimos el descuento: 12" width="1366"/>
+                <img src="e44c3cefed1652dda0cc87d2921b68d7ce42c2d92c1b8c4a5404d53627dd0794.png" title=" Y escribimos el descuento&quot;12&quot; (completed)" width="1366"/>
+                <img src="578b24bf9568868e60b7f10307650cd692973edd011db44b5d25a6cb73dc5d6f.png" title=" Y escribimos el email enviofactura&quot;gtirado@unitru.edu.pe&quot;" width="1366"/>
+                <img src="578b24bf9568868e60b7f10307650cd692973edd011db44b5d25a6cb73dc5d6f.png" title=" Escribimos el email enviofactura: gtirado@unitru.edu.pe" width="1366"/>
+                <img src="578b24bf9568868e60b7f10307650cd692973edd011db44b5d25a6cb73dc5d6f.png" title=" Y escribimos el email enviofactura&quot;gtirado@unitru.edu.pe&quot; (completed)" width="1366"/>
+                <img src="2237931cbf4025973625a3b78bad861607590df150d6ffc0a9ee1942591f7ab0.png" title=" Y seleccionamos EsProveedorEsCliente" width="1366"/>
+                <img src="2237931cbf4025973625a3b78bad861607590df150d6ffc0a9ee1942591f7ab0.png" title=" Seleccionamos es proveedor es cliente" width="1366"/>
+                <img src="2237931cbf4025973625a3b78bad861607590df150d6ffc0a9ee1942591f7ab0.png" title=" Y seleccionamos EsProveedorEsCliente (completed)" width="1366"/>
+                <img src="dbab4a9b65c4c0c8b53d5ae8f2a38731bafc9e2105863b4d84d90a56811f8b7e.png" title=" Entonces validar los datos correctos" width="1366"/>
+                <img src="dbab4a9b65c4c0c8b53d5ae8f2a38731bafc9e2105863b4d84d90a56811f8b7e.png" title=" Validar los datos correctos" width="1366"/>
+                <img src="dbab4a9b65c4c0c8b53d5ae8f2a38731bafc9e2105863b4d84d90a56811f8b7e.png" title=" Entonces validar los datos correctos (completed)" width="1366"/>
+                <img src="dbab4a9b65c4c0c8b53d5ae8f2a38731bafc9e2105863b4d84d90a56811f8b7e.png" title=" Example #1: {navegador=chrome, Tipo Documento=Otros, Numero Documento=70304898, Pais=Per&uacute;, Razon Social=Giancarlo TIRADO ARANA SA, Nombre=GIANCARLO, Direccion=CHEPEN, Localidad=CHEPEN, Departamento=LA LIBERTAD, Domicilio de entrega=CHEPEN, Descuento=12, EmailenvioFactura=gtirado@unitru.edu.pe} (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.54</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+@SISTEMAFIXED_01
+Característica: Validación del filtro de la página Juntoz
+    Como usuario de sistemaFixed abro la pagina
+    Quiero hacer la busqueda de un proveedor
+    Quiero hacer el registro de un cliente
+    Para validar el funcionamimento del funcionamiento del sistemaFixed
+
+  @ESCENARIO_SISTEMAFIXED_02_PARAMETRIZADOS
+  Esquema del escenario: Validar el filtro de un cliente en el sistemaFixed [90m# src/test/resources/web/SistemaFixed.feature:46[0m
+    [36mDado Abrir el sistemaFixed en el navegador "<navegador>"[0m
+    [36mY hacer clicks en el icono en el lado izquierdo para desplegar en el menu[0m
+    [36mY hacer click en el menu Cliente[0m
+    [36mEntonces hacer click en el submenu ver Cliente[0m
+    [36mY hacer click en el boton agregar un cliente[0m
+    [36mEntonces mostrar el formulario de agregar cliente[0m
+    [36mY seleccionamos Tipo Documento"<Tipo Documento>"[0m
+    [36mY escribimos Tipo Documento "<Numero Documento>"[0m
+    [36mY seleccionamos el Pais"<Pais>"[0m
+    [36mY escribimos Razon Social"<Razon Social>"[0m
+    [36mY escribimos el Nombre"<Nombre>"[0m
+    [36mY escribimos la direccion"<Direccion>"[0m
+    [36mY escribimos la localidad"<Localidad>"[0m
+    [36mY escribimos el departamento"<Departamento>"[0m
+    [36mY escribimos domicilio de entrega"<Domicilio de entrega>"[0m
+    [36mY escribimos el descuento"<Descuento>"[0m
+    [36mY escribimos el email enviofactura"<EmailenvioFactura>"[0m
+    [36mY seleccionamos EsProveedorEsCliente[0m
+    [36mEntonces validar los datos correctos[0m
+
+    Ejemplos: 
+
+  @SISTEMAFIXED_01 @ESCENARIO_SISTEMAFIXED_02_PARAMETRIZADOS
+  Esquema del escenario: Validar el filtro de un cliente en el sistemaFixed   [90m# src/test/resources/web/SistemaFixed.feature:71[0m
+    [32mDado [0m[32mAbrir el sistemaFixed en el navegador "[0m[32m[1mchrome[0m[32m"[0m                       [90m# SistemaFixedStepDefinition.abrirElSistemaFixedEnElNavegador(String)[0m
+    [32mY [0m[32mhacer clicks en el icono en el lado izquierdo para desplegar en el menu[0m [90m# SistemaFixedStepDefinition.hacerClicksEnElIconoEnElLadoIzquierdoParaDesplegarEnElMenu()[0m
+    [32mY [0m[32mhacer click en el menu Cliente[0m                                          [90m# SistemaFixedStepDefinition.hacerClickEnElMenuCliente()[0m
+    [32mEntonces [0m[32mhacer click en el submenu ver Cliente[0m                            [90m# SistemaFixedStepDefinition.hacerClickEnElSubmenuVerCliente()[0m
+    [32mY [0m[32mhacer click en el boton agregar un cliente[0m                              [90m# SistemaFixedStepDefinition.hacerClickEnElBotonAgregarUnCliente()[0m
+    [32mEntonces [0m[32mmostrar el formulario de agregar cliente[0m                         [90m# SistemaFixedStepDefinition.mostrarElFormularioDeAgregarCliente()[0m
+    [32mY [0m[32mseleccionamos Tipo Documento"[0m[32m[1mOtros[0m[32m"[0m                                     [90m# SistemaFixedStepDefinition.seleccionamosTipoDocumento(String)[0m
+    [32mY [0m[32mescribimos Tipo Documento "[0m[32m[1m70304898[0m[32m"[0m                                    [90m# SistemaFixedStepDefinition.escribimosTipoDocumento(String)[0m
+    [32mY [0m[32mseleccionamos el Pais"[0m[32m[1mPerú[0m[32m"[0m                                             [90m# SistemaFixedStepDefinition.seleccionamosElPais(String)[0m
+    [32mY [0m[32mescribimos Razon Social"[0m[32m[1mGiancarlo TIRADO ARANA SA[0m[32m"[0m                      [90m# SistemaFixedStepDefinition.escribimosRazonSocial(String)[0m
+    [32mY [0m[32mescribimos el Nombre"[0m[32m[1mGIANCARLO[0m[32m"[0m                                         [90m# SistemaFixedStepDefinition.escribimosElNombre(String)[0m
+    [32mY [0m[32mescribimos la direccion"[0m[32m[1mCHEPEN[0m[32m"[0m                                         [90m# SistemaFixedStepDefinition.escribimosLaDireccion(String)[0m
+    [32mY [0m[32mescribimos la localidad"[0m[32m[1mCHEPEN[0m[32m"[0m                                         [90m# SistemaFixedStepDefinition.escribimosLaLocalidad(String)[0m
+    [32mY [0m[32mescribimos el departamento"[0m[32m[1mLA LIBERTAD[0m[32m"[0m                                 [90m# SistemaFixedStepDefinition.escribimosElDepartamento(String)[0m
+    [32mY [0m[32mescribimos domicilio de entrega"[0m[32m[1mCHEPEN[0m[32m"[0m                                 [90m# SistemaFixedStepDefinition.escribimosDomicilioDeEntrega(String)[0m
+    [32mY [0m[32mescribimos el descuento"[0m[32m[1m12[0m[32m"[0m                                             [90m# SistemaFixedStepDefinition.escribimosElDescuento(String)[0m
+    [32mY [0m[32mescribimos el email enviofactura"[0m[32m[1mgtirado@unitru.edu.pe[0m[32m"[0m                 [90m# SistemaFixedStepDefinition.escribimosElEmailEnviofactura(String)[0m
+    [32mY [0m[32mseleccionamos EsProveedorEsCliente[0m                                      [90m# SistemaFixedStepDefinition.seleccionamosEsProveedorEsCliente()[0m
+    [32mEntonces [0m[32mvalidar los datos correctos[0m                                      [90m# SistemaFixedStepDefinition.validarLosDatosCorrectos()[0m

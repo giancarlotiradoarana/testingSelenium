@@ -1,0 +1,340 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 71,
+        "name": "Validar el filtro de un cliente en el sistemaFixed",
+        "description": "",
+        "id": "validación-del-filtro-de-la-página-juntoz;validar-el-filtro-de-un-cliente-en-el-sistemafixed;;2",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 33413826200,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Abrir el sistemaFixed en el navegador \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 39
+                }
+              ],
+              "location": "SistemaFixedStepDefinition.abrirElSistemaFixedEnElNavegador(String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 23190208200,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "hacer clicks en el icono en el lado izquierdo para desplegar en el menu",
+            "match": {
+              "location": "SistemaFixedStepDefinition.hacerClicksEnElIconoEnElLadoIzquierdoParaDesplegarEnElMenu()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 1066989400,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "hacer click en el menu Cliente",
+            "match": {
+              "location": "SistemaFixedStepDefinition.hacerClickEnElMenuCliente()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 23111807100,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "hacer click en el submenu ver Cliente",
+            "match": {
+              "location": "SistemaFixedStepDefinition.hacerClickEnElSubmenuVerCliente()"
+            },
+            "keyword": "Entonces "
+          },
+          {
+            "result": {
+              "duration": 1464678400,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "hacer click en el boton agregar un cliente",
+            "match": {
+              "location": "SistemaFixedStepDefinition.hacerClickEnElBotonAgregarUnCliente()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 1760400,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "mostrar el formulario de agregar cliente",
+            "match": {
+              "location": "SistemaFixedStepDefinition.mostrarElFormularioDeAgregarCliente()"
+            },
+            "keyword": "Entonces "
+          },
+          {
+            "result": {
+              "duration": 5367922800,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "seleccionamos Tipo Documento\"Otros\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Otros",
+                  "offset": 29
+                }
+              ],
+              "location": "SistemaFixedStepDefinition.seleccionamosTipoDocumento(String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 2103810200,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "escribimos Tipo Documento \"70304898\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "70304898",
+                  "offset": 27
+                }
+              ],
+              "location": "SistemaFixedStepDefinition.escribimosTipoDocumento(String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 1213272400,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "seleccionamos el Pais\"Perú\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Perú",
+                  "offset": 22
+                }
+              ],
+              "location": "SistemaFixedStepDefinition.seleccionamosElPais(String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 1301225000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "escribimos Razon Social\"Giancarlo TIRADO ARANA SA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Giancarlo TIRADO ARANA SA",
+                  "offset": 24
+                }
+              ],
+              "location": "SistemaFixedStepDefinition.escribimosRazonSocial(String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 848349000,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "escribimos el Nombre\"GIANCARLO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GIANCARLO",
+                  "offset": 21
+                }
+              ],
+              "location": "SistemaFixedStepDefinition.escribimosElNombre(String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 875646600,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "escribimos la direccion\"CHEPEN\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CHEPEN",
+                  "offset": 24
+                }
+              ],
+              "location": "SistemaFixedStepDefinition.escribimosLaDireccion(String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 1460365500,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "escribimos la localidad\"CHEPEN\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CHEPEN",
+                  "offset": 24
+                }
+              ],
+              "location": "SistemaFixedStepDefinition.escribimosLaLocalidad(String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 1419940200,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "escribimos el departamento\"LA LIBERTAD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LA LIBERTAD",
+                  "offset": 27
+                }
+              ],
+              "location": "SistemaFixedStepDefinition.escribimosElDepartamento(String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 842999000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "escribimos domicilio de entrega\"CHEPEN\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CHEPEN",
+                  "offset": 32
+                }
+              ],
+              "location": "SistemaFixedStepDefinition.escribimosDomicilioDeEntrega(String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 821924000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "escribimos el descuento\"12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 24
+                }
+              ],
+              "location": "SistemaFixedStepDefinition.escribimosElDescuento(String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 903252400,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "escribimos el email enviofactura\"gtirado@unitru.edu.pe\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gtirado@unitru.edu.pe",
+                  "offset": 33
+                }
+              ],
+              "location": "SistemaFixedStepDefinition.escribimosElEmailEnviofactura(String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 521362900,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "seleccionamos EsProveedorEsCliente",
+            "match": {
+              "location": "SistemaFixedStepDefinition.seleccionamosEsProveedorEsCliente()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 9653080200,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "validar los datos correctos",
+            "match": {
+              "location": "SistemaFixedStepDefinition.validarLosDatosCorrectos()"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SISTEMAFIXED_01"
+          },
+          {
+            "name": "@ESCENARIO_SISTEMAFIXED_02_PARAMETRIZADOS"
+          }
+        ]
+      }
+    ],
+    "name": "Validación del filtro de la página Juntoz",
+    "description": "    Como usuario de sistemaFixed abro la pagina\n    Quiero hacer la busqueda de un proveedor\n    Quiero hacer el registro de un cliente\n    Para validar el funcionamimento del funcionamiento del sistemaFixed",
+    "id": "validación-del-filtro-de-la-página-juntoz",
+    "keyword": "Característica",
+    "uri": "src/test/resources/web/SistemaFixed.feature",
+    "tags": [
+      {
+        "name": "@SISTEMAFIXED_01",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
